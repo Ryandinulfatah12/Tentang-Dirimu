@@ -20,7 +20,8 @@ function checkMyName() {
       if (result.status == "success") {
         let query = result.data;
         $("#app").append(`
-                    <img src="assets/undraw_my_documents_ym8x.png">
+                    <h3>Hasil</h3>
+                    <img src="assets/Saly-12.png">
                     <h2>${query.nama}</h2>
                     <p><strong>Lahir:</strong> ${query.lahir}</p>
                     <p><strong>Hari Ulang tahun:</strong> ${query.ultah} lagi</p>
